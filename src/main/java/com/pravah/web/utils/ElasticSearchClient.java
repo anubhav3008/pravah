@@ -17,11 +17,13 @@ import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestClient;
 import org.elasticsearch.client.RestHighLevelClient;
+import org.elasticsearch.common.unit.DistanceUnit;
 import org.elasticsearch.common.xcontent.XContentType;
+import org.elasticsearch.index.query.BoolQueryBuilder;
+import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.index.reindex.BulkByScrollResponse;
 import org.elasticsearch.index.reindex.DeleteByQueryRequest;
-import org.elasticsearch.index.reindex.DeleteByQueryRequestBuilder;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.SearchHits;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
@@ -57,25 +59,35 @@ public class ElasticSearchClient {
     }
 
     public JsonNode search(Map<String,String[]> searchParams) throws Exception {
-
         SearchRequest searchRequest = new SearchRequest();
         SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
 
+        BoolQueryBuilder boolQueryBuilder=QueryBuilders.boolQuery();
         for(Map.Entry<String,String[]> stringEntry: searchParams.entrySet()){
 
             String key= stringEntry.getKey();
             String vals[]=stringEntry.getValue();
             if(vals.length==1){
-                searchSourceBuilder=searchSourceBuilder.query(QueryBuilders.matchQuery(key,vals[0]));
+                boolQueryBuilder=boolQueryBuilder.should(QueryBuilders.matchQuery(key,vals[0]));
             }
             else {
                 throw new Exception("only one key and value supported as of now");
             }
-
         }
 
-        searchRequest.source(searchSourceBuilder);
+        if(searchParams.containsKey(Constants.LATITUDE) && searchParams.containsKey(Constants.LONGITUDE) && searchParams.containsKey(Constants.DISTANCE_IN_KM)) {
+            double latitude= Double.parseDouble(searchParams.get(Constants.LATITUDE)[0]);
+            double longitude= Double.parseDouble(searchParams.get(Constants.LONGITUDE)[0]);
+            String distanceInKm=searchParams.get(Constants.DISTANCE_IN_KM)[0];
+            QueryBuilder geoDistanceQueryBuilder = QueryBuilders
+                    .geoDistanceQuery(Constants.GEO_CORDINATES)
+                    .point(latitude, longitude)
+                    .distance(distanceInKm, DistanceUnit.KILOMETERS);
+            boolQueryBuilder = boolQueryBuilder.should(geoDistanceQueryBuilder);
 
+        }
+        searchSourceBuilder.query(boolQueryBuilder);
+        searchRequest.source(searchSourceBuilder);
         ArrayNode arrayNode=  objectMapper.createArrayNode();
         SearchResponse searchResponse  = this.restHighLevelClient.search(searchRequest, RequestOptions.DEFAULT);
         SearchHits hits = searchResponse.getHits();
@@ -107,6 +119,7 @@ public class ElasticSearchClient {
     public JsonNode delete(Map<String, String[]> searchParams, String index) throws Exception {
         DeleteByQueryRequest request =
                 new DeleteByQueryRequest(index);
+
 
         for(Map.Entry<String,String[]> stringEntry: searchParams.entrySet()){
 

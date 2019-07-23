@@ -2,6 +2,7 @@ package com.pravah.web.dao;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.pravah.web.utils.Constants;
 import com.pravah.web.utils.ElasticSearchClient;
 import org.apache.http.HttpHost;
 import org.apache.http.auth.AuthScope;
@@ -36,10 +37,6 @@ import java.util.Objects;
 @Service
 public class TicketsDao  {
 
-    private ObjectMapper objectMapper= new ObjectMapper();
-
-    private String TICKETS_INDEX="tickets";
-
     @Autowired
     private ElasticSearchClient elasticSearchClient;
 
@@ -48,10 +45,10 @@ public class TicketsDao  {
     }
 
     public JsonNode addTicket( JsonNode ticket) throws IOException {
-        return elasticSearchClient.index(ticket,TICKETS_INDEX);
+        return elasticSearchClient.index(ticket, Constants.TICKETS_INDEX);
     }
     public JsonNode deleteTickets(Map<String,String[]> searchParams) throws Exception {
-        return elasticSearchClient.delete(searchParams,TICKETS_INDEX);
+        return elasticSearchClient.delete(searchParams,Constants.TICKETS_INDEX);
     }
 
 }

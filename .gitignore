@@ -122,3 +122,11 @@ target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/TicketsDao.class
 target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/service/TicketService.class
 target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/utils/ElasticSearchClient.class
 *.class
+target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/service/TicketService.class
+target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/TicketsDao.class
+target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/controller/TicketController.class
+target/pravah-1.0.0.war
+target/classes/com/pravah/web/service/TicketService.class
+target/classes/com/pravah/web/dao/TicketsDao.class
+target/classes/com/pravah/web/controller/TicketController.class
+.idea/workspace.xml
