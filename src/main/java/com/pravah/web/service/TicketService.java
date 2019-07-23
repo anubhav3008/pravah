@@ -4,7 +4,6 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.pravah.web.dao.TicketsDao;
-import com.pravah.web.entity.Ticket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,7 +16,7 @@ public class TicketService {
     public JsonNode getAssignedTickets(String userName){
         ObjectNode response = mapper.createObjectNode();
         try {
-            response.putPOJO("data", ticketsDao.getAssignedTickets(userName));
+            response.putPOJO("data", ticketsDao.findByAssignedto(userName));
             response.put("success", true);
         } catch (Exception e) {
             e.printStackTrace();
@@ -31,7 +30,7 @@ public class TicketService {
     public JsonNode getLoggedTickets(String userName){
         ObjectNode response = mapper.createObjectNode();
         try {
-            response.putPOJO("data", ticketsDao.getLoggedTickets(userName));
+            response.putPOJO("data", ticketsDao.findByLoggedby(userName));
             response.put("success", true);
         } catch (Exception e) {
             e.printStackTrace();

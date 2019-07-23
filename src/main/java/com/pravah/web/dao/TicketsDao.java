@@ -1,59 +1,93 @@
 package com.pravah.web.dao;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.pravah.web.entity.History;
-import com.pravah.web.entity.Ticket;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.http.HttpHost;
+import org.apache.http.auth.AuthScope;
+import org.apache.http.auth.UsernamePasswordCredentials;
+import org.apache.http.client.CredentialsProvider;
+import org.apache.http.impl.client.BasicCredentialsProvider;
+import org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy;
+import org.elasticsearch.action.index.IndexRequest;
+import org.elasticsearch.action.index.IndexResponse;
+import org.elasticsearch.action.search.SearchRequest;
+import org.elasticsearch.action.search.SearchResponse;
+import org.elasticsearch.client.RequestOptions;
+import org.elasticsearch.client.RestClient;
+import org.elasticsearch.client.RestHighLevelClient;
+import org.elasticsearch.common.xcontent.XContentType;
+import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.search.SearchHit;
+import org.elasticsearch.search.SearchHits;
+import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
+import java.io.IOException;
+import java.net.URI;
+import java.util.Objects;
 
 
 @Service
-public class TicketsDao {
+public class TicketsDao  {
 
-    public List<Ticket> getAssignedTickets( String name){
+    private RestHighLevelClient restHighLevelClient;
 
-        return getDummyTickets();
+    private ObjectMapper objectMapper= new ObjectMapper();
+    public TicketsDao(){
+
+        String connString = "https://Aoh8DQs6Fk:LMfDsJVgQcBFSC7Am2E3ho5@aralia-828997626.us-east-1.bonsaisearch.net:443";
+        URI connUri = URI.create(connString);
+        String[] auth = connUri.getUserInfo().split(":");
+
+        CredentialsProvider cp = new BasicCredentialsProvider();
+        cp.setCredentials(AuthScope.ANY, new UsernamePasswordCredentials(auth[0], auth[1]));
+
+        RestHighLevelClient restHighLevelClient = new RestHighLevelClient(
+                RestClient.builder(new HttpHost(connUri.getHost(), connUri.getPort(), connUri.getScheme()))
+                        .setHttpClientConfigCallback(
+                                httpAsyncClientBuilder -> httpAsyncClientBuilder.setDefaultCredentialsProvider(cp)
+                                        .setKeepAliveStrategy(new DefaultConnectionKeepAliveStrategy())));
+
+
+        this.restHighLevelClient=restHighLevelClient;
+    }
+    public JsonNode findByAssignedto(String name){
+
+        SearchRequest searchRequest = new SearchRequest();
+        SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
+        searchSourceBuilder.query(QueryBuilders.matchAllQuery());
+        searchRequest.source(searchSourceBuilder);
+
+        SearchHits hits = null;
+        try {
+            SearchResponse searchResponse  = this.restHighLevelClient.search(searchRequest, RequestOptions.DEFAULT);
+            hits = searchResponse.getHits();
+        } catch (Exception ex) {
+            System.out.println(ex.toString());
+        }
+
+
+        if(Objects.nonNull(hits)) {
+            return objectMapper.convertValue(hits, JsonNode.class);
+        }
+        return null;
+
+    }
+    public JsonNode findByLoggedby(String name){
+
+        return null;
+    }
+    public JsonNode getAllTickets( String name){
+
+        return null;
+    }
+    public JsonNode addTicket( JsonNode ticket) throws IOException {
+
+        IndexRequest request = new IndexRequest("tickets");
+
+        request.source(ticket, XContentType.JSON);
+        IndexResponse indexResponse=this.restHighLevelClient.index(request,RequestOptions.DEFAULT);
+        return new ObjectMapper().convertValue(indexResponse,JsonNode.class);
     }
 
-    public List<Ticket> getLoggedTickets( String name){
-
-        return getDummyTickets();
-    }
-    public List<Ticket> getAllTickets( String name){
-
-        return getDummyTickets();
-    }
-    public JsonNode addTicket( JsonNode ticket){
-
-        ObjectNode ticket1 = (ObjectNode) ticket;
-        ticket1.put( "id",(int)(Math.random()*1000));
-        return ticket;
-    }
-
-    private List<Ticket> getDummyTickets(){
-
-        List<History> histories= new ArrayList<>();
-        histories.add(new History(new Date(),"created a tender for the contract", "radheyshyam tiwari"));
-        histories.add(new History(new Date(),"abc corp assigned the tender", "radheyshyam tiwari"));
-        Ticket ticket1=  new Ticket(null,"FootPath broken",
-                "A big time issue to padestrians. Acccident prone for me",
-                "Municipal corporation",
-                "anubhav shrivastava",
-                new Date(),
-                new Date(),histories);
-
-        Ticket ticket2=  new Ticket(null,"Road jam mostly",
-                "A big time issue to car owners",
-                "Municipal corporation",
-                "mashood",
-                new Date(),
-                new Date(),histories);
-
-        return Arrays.asList(ticket1,ticket2);
-    }
 }

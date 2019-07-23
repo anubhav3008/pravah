@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="pravah:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85e6b308-572f-43af-8304-6509f81077a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/pravah_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/pravah_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__bouncycastle_bcmail_jdk14_136.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__bouncycastle_bcprov_jdk14_136.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_8_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_8_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_8_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itextpdf_5_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_tool_xmlworker_5_5_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sendgrid_java_http_client_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sendgrid_sendgrid_java_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_t_digest_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_chain_commons_chain_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jodah_expiringmap_0_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_core_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_taglib_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_tiles_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_tools_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_7_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_high_level_client_7_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_7_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_cli_7_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_core_7_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_geo_7_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_secure_sm_7_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_x_content_7_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_jna_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_aggs_matrix_stats_client_7_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_7_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_7_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_rank_eval_client_7_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdbi_jdbi3_core_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdbi_jdbi3_postgres_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdbi_jdbi3_spring4_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdbi_jdbi3_sqlobject_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdbi_jdbi_2_78.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xhtmlrenderer_core_renderer_R8pre2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__sslext_sslext_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pravah.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/aggregator/ContributionAggregator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/aggregator/LeaderBoardAggregator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/controller/AutosuggestionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/controller/GoalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/controller/LeaderBoardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/controller/MeetingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/controller/MessageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/controller/SpeechController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/controller/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravah/web/controller/TicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/dao/AutosuggestionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/dao/GoalDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/dao/MeetingDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/dao/MeetingJsonDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/dao/SpeechDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/dao/TicketsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravah/web/dao/TicketsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/dao/UsersDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/dto/Contribution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/dto/LeaderBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/entity/Goal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/entity/History.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/entity/Meeting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/entity/Speech.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/entity/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/entity/mapper/GoalMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/entity/mapper/MeetingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/entity/mapper/SpeechMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/entity/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/service/AgendaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/service/AutoSuggestionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/service/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/service/GoalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/service/LeaderBoardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/service/MeetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/service/SpeechService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/service/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravah/web/service/TicketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/utils/EmailUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/utils/VelocityUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/template/agenda_pdf.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/template/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/aggregator/ContributionAggregator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/aggregator/LeaderBoardAggregator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/controller/AutosuggestionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/controller/GoalController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/controller/LeaderBoardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/controller/MeetingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/controller/MessageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/controller/SpeechController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/dao/AutosuggestionDao$AutoSuggestionJDBIDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/dao/AutosuggestionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/dao/GoalDao$GoalJdbiDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/dao/GoalDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/dao/MeetingDao$MeetingJdbiDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/dao/MeetingDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/dao/MeetingJsonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/dao/SpeechDao$SpeechJdbiDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/dao/SpeechDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/dao/UsersDao$UsersJDBIDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/dao/UsersDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/dto/Contribution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/dto/LeaderBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/entity/Goal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/entity/Meeting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/entity/Speech.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/entity/mapper/GoalMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/entity/mapper/MeetingMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/entity/mapper/SpeechMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/entity/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/service/AgendaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/service/AutoSuggestionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/service/EmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/service/GoalService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/service/LeaderBoardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/service/MeetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/service/SpeechService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/utils/EmailUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/utils/VelocityUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/template/agenda_pdf.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/template/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/pravah-1.0.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/aggregator/ContributionAggregator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/aggregator/LeaderBoardAggregator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/controller/AutosuggestionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/controller/GoalController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/controller/LeaderBoardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/controller/MeetingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/controller/MessageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/controller/SpeechController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/AutosuggestionDao$AutoSuggestionJDBIDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/AutosuggestionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/GoalDao$GoalJdbiDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/GoalDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/MeetingDao$MeetingJdbiDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/MeetingDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/MeetingJsonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/SpeechDao$SpeechJdbiDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/SpeechDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/UsersDao$UsersJDBIDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/UsersDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dto/Contribution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dto/LeaderBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/entity/Goal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/entity/Meeting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/entity/Speech.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/entity/mapper/GoalMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/entity/mapper/MeetingMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/entity/mapper/SpeechMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/entity/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/service/AgendaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/service/AutoSuggestionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/service/EmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/service/GoalService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/service/LeaderBoardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/service/MeetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/service/SpeechService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/utils/EmailUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/utils/VelocityUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/template/agenda_pdf.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/template/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/lib/httpclient-4.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/lib/httpcore-4.4.4.jar" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="177" column="34" selection-start-line="177" selection-start-column="34" selection-end-line="177" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/dao/TicketsDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.2.0/elasticsearch-7.2.0.jar!/org/elasticsearch/action/search/SearchRequest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="344" selection-start-line="344" selection-end-line="344" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/utils/TimeUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/service/TicketService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/controller/TicketController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/controller/HealthCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.2.0/elasticsearch-rest-high-level-client-7.2.0-sources.jar!/org/elasticsearch/client/RestHighLevelClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12">
+              <caret line="825" column="5" selection-start-line="825" selection-start-column="5" selection-end-line="825" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.2.0/elasticsearch-7.2.0.jar!/org/elasticsearch/index/query/QueryBuilders.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+              <folding>
+                <element signature="e#1297#1298#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.2.0/elasticsearch-7.2.0.jar!/org/elasticsearch/index/query/MatchQueryBuilder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>RequestOptions</find>
+      <find>add</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/pravah/web/entity/Ticket.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pravah/web/service/TicketService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pravah/web/controller/TicketController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pravah/web/dao/TicketsDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pravah" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pravah" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pravah" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pravah" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pravah" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pravah" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pravah" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pravah" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pravah" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pravah" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pravah" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pravah" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pravah" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pravah" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pravah" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pravah" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pravah" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pravah" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pravah" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pravah" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pravah" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pravah" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_221\jre" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pravah_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="pravah:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/pravah_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_pravah_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52941" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="pravah:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85e6b308-572f-43af-8304-6509f81077a1" name="Default Changelist" comment="" />
+      <created>1563871747665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563871747665</updated>
+      <workItem from="1563871751714" duration="8374000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8374000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" weight="0.5750708" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2733711" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="JSF" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="CDI" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravah/web/dao/TicketsDao.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/transport/5.5.0/transport-5.5.0.jar!/org/elasticsearch/transport/client/PreBuiltTransportClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/5.6.0/elasticsearch-5.6.0.jar!/org/elasticsearch/common/settings/Settings.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="177" column="34" selection-start-line="177" selection-start-column="34" selection-end-line="177" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.2.0/elasticsearch-7.2.0.jar!/org/elasticsearch/index/query/MatchQueryBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.2.0/elasticsearch-7.2.0.jar!/org/elasticsearch/index/query/QueryBuilders.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="e#1297#1298#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.2.0/elasticsearch-rest-high-level-client-7.2.0.jar!/org/elasticsearch/client/RestHighLevelClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5199">
+          <caret line="993" column="19" selection-start-line="993" selection-start-column="16" selection-end-line="993" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/dao/MeetingDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.2.0/elasticsearch-7.2.0.jar!/org/elasticsearch/common/Strings.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="445" column="25" selection-start-line="445" selection-start-column="25" selection-end-line="445" selection-end-column="25" />
+          <folding>
+            <element signature="e#14531#14532#0" expanded="true" />
+            <element signature="e#14588#14589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.2.0/elasticsearch-7.2.0.jar!/org/elasticsearch/action/search/SearchResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding>
+            <element signature="e#15065#15066#0" expanded="true" />
+            <element signature="e#15110#15111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.2.0/elasticsearch-rest-high-level-client-7.2.0-sources.jar!/org/elasticsearch/client/RestHighLevelClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="825" column="5" selection-start-line="825" selection-start-column="5" selection-end-line="825" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/utils/VelocityUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/utils/TimeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/entity/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/controller/HealthCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/controller/TicketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.2.0/elasticsearch-7.2.0.jar!/org/elasticsearch/action/search/SearchRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="344" selection-start-line="344" selection-end-line="344" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/service/TicketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/dao/TicketsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
