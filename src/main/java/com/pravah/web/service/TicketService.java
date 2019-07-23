@@ -7,43 +7,18 @@ import com.pravah.web.dao.TicketsDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Map;
+
 @Service
 public class TicketService {
 
     ObjectMapper mapper = new ObjectMapper();
     @Autowired
     TicketsDao ticketsDao;
-    public JsonNode getAssignedTickets(String userName){
+    public JsonNode searchTickets(Map<String,String[]> searchParams){
         ObjectNode response = mapper.createObjectNode();
         try {
-            response.putPOJO("data", ticketsDao.findByAssignedto(userName));
-            response.put("success", true);
-        } catch (Exception e) {
-            e.printStackTrace();
-            response.put("success", false);
-            response.put("error", e.getMessage());
-        }
-        return response;
-    }
-
-
-    public JsonNode getLoggedTickets(String userName){
-        ObjectNode response = mapper.createObjectNode();
-        try {
-            response.putPOJO("data", ticketsDao.findByLoggedby(userName));
-            response.put("success", true);
-        } catch (Exception e) {
-            e.printStackTrace();
-            response.put("success", false);
-            response.put("error", e.getMessage());
-        }
-        return response;
-    }
-
-    public JsonNode getAllTickets(String userName){
-        ObjectNode response = mapper.createObjectNode();
-        try {
-            response.putPOJO("data", ticketsDao.getAllTickets(userName));
+            response.putPOJO("data", ticketsDao.searchTickets(searchParams));
             response.put("success", true);
         } catch (Exception e) {
             e.printStackTrace();
@@ -57,6 +32,19 @@ public class TicketService {
         ObjectNode response = mapper.createObjectNode();
         try {
             response.putPOJO("data", ticketsDao.addTicket(ticket));
+            response.put("success", true);
+        } catch (Exception e) {
+            e.printStackTrace();
+            response.put("success", false);
+            response.put("error", e.getMessage());
+        }
+        return response;
+    }
+
+    public JsonNode deleteTicket(Map<String,String[]> searchParams){
+        ObjectNode response = mapper.createObjectNode();
+        try {
+            response.putPOJO("data", ticketsDao.deleteTickets(searchParams));
             response.put("success", true);
         } catch (Exception e) {
             e.printStackTrace();

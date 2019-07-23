@@ -112,3 +112,13 @@ pravah.iml
 target/classes/META-INF/pravah.kotlin_module
 target/pravah-1.0.0.war
 target/pravah-1.0.0/META-INF/MANIFEST.MF
+target/classes/com/pravah/web/controller/TicketController.class
+target/classes/com/pravah/web/dao/TicketsDao.class
+target/classes/com/pravah/web/service/TicketService.class
+target/classes/com/pravah/web/utils/ElasticSearchClient.class
+target/pravah-1.0.0.war
+target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/controller/TicketController.class
+target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/TicketsDao.class
+target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/service/TicketService.class
+target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/utils/ElasticSearchClient.class
+*.class

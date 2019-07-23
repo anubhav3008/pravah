@@ -11,7 +11,5 @@ public class HealthCheck {
 	public @ResponseBody String healthCheck() {
 		return "hello";
 	}
-	
-	
 
 }
