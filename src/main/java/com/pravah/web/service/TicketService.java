@@ -2,11 +2,13 @@ package com.pravah.web.service;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.pravah.web.dao.TicketsDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.json.JsonArray;
 import java.util.Map;
 
 @Service
@@ -25,6 +27,14 @@ public class TicketService {
             response.put("success", false);
             response.put("error", e.getMessage());
         }
+        return response;
+    }
+
+    public JsonNode bulkAddTicket(ArrayNode tickets){
+        ObjectNode response = mapper.createObjectNode();
+            for (JsonNode ticket : tickets) {
+                addTicket(ticket);
+            }
         return response;
     }
 

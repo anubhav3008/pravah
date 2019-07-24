@@ -1,10 +1,12 @@
 package com.pravah.web.controller;
 
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.pravah.web.service.TicketService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.json.JsonArray;
 import javax.servlet.http.HttpServletRequest;
 
 @CrossOrigin
@@ -27,6 +29,10 @@ public class TicketController {
     @RequestMapping( method = RequestMethod.DELETE)
     public JsonNode deleteTicket(HttpServletRequest httpServletRequest){
         return ticketService.deleteTicket(httpServletRequest.getParameterMap());
+    }
+    @RequestMapping(path = "/bulkadd")
+    public JsonNode bulkaddTicket(@RequestBody ArrayNode tickets){
+        return ticketService.bulkAddTicket(tickets);
     }
 
 }

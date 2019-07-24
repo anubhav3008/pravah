@@ -40,7 +40,7 @@ public class ElasticSearchClient {
     private ObjectMapper objectMapper=new  ObjectMapper();
     public ElasticSearchClient(){
 
-        String connString = "https://Aoh8DQs6Fk:LMfDsJVgQcBFSC7Am2E3ho5@aralia-828997626.us-east-1.bonsaisearch.net:443";
+        String connString = "https://b57p3oob2s:1woc8y9a95@privet-939751886.us-east-1.bonsaisearch.net:443";
         URI connUri = URI.create(connString);
         String[] auth = connUri.getUserInfo().split(":");
 

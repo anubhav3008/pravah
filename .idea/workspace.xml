@@ -7,22 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0729bfe7-c4ab-49b3-af88-14da344d833e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravah/web/utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-generator.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kibana_schema" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/controller/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravah/web/controller/TicketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/dao/TicketsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravah/web/dao/TicketsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/service/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravah/web/service/TicketService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pravah/web/utils/ElasticSearchClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravah/web/utils/ElasticSearchClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/controller/TicketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pravah/web/controller/TicketController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/dao/TicketsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pravah/web/dao/TicketsDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pravah/web/service/TicketService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pravah/web/service/TicketService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/pravah-1.0.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/META-INF/pravah.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/controller/TicketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/controller/TicketController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/TicketsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/dao/TicketsDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/service/TicketService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/pravah-1.0.0/WEB-INF/classes/com/pravah/web/service/TicketService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,37 +30,40 @@
     <session id="-124089296">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="11" />
-          <entry key="java" value="9" />
+          <entry key="java" value="12" />
+          <entry key="kibana_schema" value="1" />
           <entry key="sh" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="11" />
-          <entry key="JAVA" value="9" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="12" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2267" />
+          <entry key="java" value="2350" />
+          <entry key="kibana_schema" value="3" />
           <entry key="sh" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2267" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="JAVA" value="2350" />
+          <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -76,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/controller/TicketController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="300">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/service/TicketService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="195">
+              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -98,16 +95,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/dao/TicketsDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+              <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/utils/ElasticSearchClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="70" column="57" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
+            <state relative-caret-position="297">
+              <caret line="42" column="106" selection-start-line="42" selection-start-column="106" selection-end-line="42" selection-end-column="106" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,19 +113,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shell.sh">
+        <entry file="file://$PROJECT_DIR$/kibana_schema">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.2.0/elasticsearch-7.2.0.jar!/org/elasticsearch/index/query/QueryBuilders.class">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/json-generator.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            <state relative-caret-position="453">
+              <caret line="10057" lean-forward="true" selection-start-line="10057" selection-end-line="10057" />
             </state>
           </provider>
         </entry>
@@ -185,12 +182,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/pravah/web/controller/HealthCheck.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pravah/web/controller/TicketController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pravah/web/service/TicketService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pravah/web/utils/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pravah/web/dao/TicketsDao.java" />
         <option value="$PROJECT_DIR$/shell.sh" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pravah/web/service/TicketService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pravah/web/controller/TicketController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pravah/web/utils/ElasticSearchClient.java" />
+        <option value="$PROJECT_DIR$/kibana_schema" />
+        <option value="$PROJECT_DIR$/json-generator.txt" />
       </list>
     </option>
   </component>
@@ -229,7 +228,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -309,12 +307,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563911719067" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563942237557" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -417,17 +416,21 @@
       <workItem from="1563894457605" duration="13552000" />
       <workItem from="1563911740699" duration="201000" />
       <workItem from="1563911962428" duration="184000" />
+      <workItem from="1563912149750" duration="655000" />
+      <workItem from="1563934922804" duration="2942000" />
+      <workItem from="1563942269916" duration="1128000" />
+      <workItem from="1563943552735" duration="1375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13937000" />
+    <option name="totallyTimeSpent" value="20037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -437,7 +440,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38581732" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38581732" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -541,30 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/controller/TicketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/service/TicketService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/dao/TicketsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shell.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -576,6 +555,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/controller/TicketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/service/TicketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/dao/TicketsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -609,11 +612,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pravah/web/utils/ElasticSearchClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="70" column="57" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
+        <state relative-caret-position="297">
+          <caret line="42" column="106" selection-start-line="42" selection-start-column="106" selection-end-line="42" selection-end-column="106" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kibana_schema">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json-generator.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="10057" lean-forward="true" selection-start-line="10057" selection-end-line="10057" />
         </state>
       </provider>
     </entry>
