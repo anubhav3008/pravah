@@ -63,4 +63,17 @@ public class TicketService {
         }
         return response;
     }
+
+    public JsonNode getCountBy(String feild){
+        ObjectNode response = mapper.createObjectNode();
+        try {
+            response.putPOJO("data", ticketsDao.getCountBy(feild));
+            response.put("success", true);
+        } catch (Exception e) {
+            e.printStackTrace();
+            response.put("success", false);
+            response.put("error", e.getMessage());
+        }
+        return response;
+    }
 }

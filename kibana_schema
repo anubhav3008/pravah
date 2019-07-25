@@ -10,10 +10,9 @@
       "title":      { "type": "text" },
       "createdOn":  {
         "type":   "date",
-        "format": "YYYY-MM-dd hh:mm:ss",
-        "fielddata": true
+        "format": "YYYY-MM-dd hh:mm:ss"
       },
- "status":      { "type": "text" },
+ "status":      { "type": "text" , "fielddata": true},
 "location": {"type": "geo_point"}
     }
   }

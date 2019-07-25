@@ -35,4 +35,9 @@ public class TicketController {
         return ticketService.bulkAddTicket(tickets);
     }
 
+    @RequestMapping(path = "/count")
+    public JsonNode getCountBy(@RequestParam("field") String field){
+        return ticketService.getCountBy(field);
+    }
+
 }

@@ -1,0 +1,10 @@
+{
+    "aggs" : {
+        "type_count" : {
+            "terms" : {
+                "field" : "status"
+            }
+        }
+    }
+}
+/tickets/_search?size=1
