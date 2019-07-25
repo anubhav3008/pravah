@@ -40,4 +40,9 @@ public class TicketController {
         return ticketService.getCountBy(field);
     }
 
+    @RequestMapping(path = "/update")
+    public JsonNode update(@RequestBody JsonNode ticket){
+        return ticketService.update(ticket);
+    }
+
 }

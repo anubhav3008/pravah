@@ -54,5 +54,8 @@ public class TicketsDao  {
     public JsonNode getCountBy(String field) throws Exception {
         return elasticSearchClient.getCountByFeild(field);
     }
+    public JsonNode update( JsonNode ticket) throws Exception {
+        return elasticSearchClient.update(ticket);
+    }
 
 }

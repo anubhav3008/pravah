@@ -14,6 +14,7 @@ import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
+import org.elasticsearch.action.update.UpdateRequest;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestClient;
 import org.elasticsearch.client.RestHighLevelClient;
@@ -32,6 +33,7 @@ import org.elasticsearch.search.aggregations.bucket.terms.TermsAggregationBuilde
 import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.springframework.stereotype.Service;
 
+import javax.json.Json;
 import java.io.IOException;
 import java.net.URI;
 import java.util.Map;
@@ -134,7 +136,6 @@ public class ElasticSearchClient {
     public JsonNode index(JsonNode data, String index) throws IOException {
 
         IndexRequest request = new IndexRequest(index);
-
         request.source(data.toString(), XContentType.JSON);
         IndexResponse indexResponse=this.restHighLevelClient.index(request,RequestOptions.DEFAULT);
         ObjectNode objectNode= objectMapper.createObjectNode();
@@ -190,5 +191,20 @@ public class ElasticSearchClient {
         }
         return arrayNode;
 
+    }
+
+    public JsonNode update(JsonNode data) throws Exception{
+        if(!data.has("_id")){
+            throw new Exception("key not found");
+        }
+        String id= data.get("_id").asText();
+        ObjectNode dataObject= (ObjectNode) data;
+        dataObject.remove("_id");
+        UpdateRequest updateRequest = new UpdateRequest();
+        updateRequest.index("tickets");
+        updateRequest.doc(data.toString(), XContentType.JSON);
+        updateRequest.id(id);
+
+        return objectMapper.convertValue(this.restHighLevelClient.update(updateRequest, RequestOptions.DEFAULT), JsonNode.class);
     }
 }

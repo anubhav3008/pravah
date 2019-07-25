@@ -76,4 +76,17 @@ public class TicketService {
         }
         return response;
     }
+
+    public JsonNode update(JsonNode ticket){
+        ObjectNode response = mapper.createObjectNode();
+        try {
+            response.putPOJO("data", ticketsDao.update(ticket));
+            response.put("success", true);
+        } catch (Exception e) {
+            e.printStackTrace();
+            response.put("success", false);
+            response.put("error", e.getMessage());
+        }
+        return response;
+    }
 }
