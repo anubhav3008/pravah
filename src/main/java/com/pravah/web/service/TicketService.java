@@ -8,6 +8,7 @@ import com.pravah.web.dao.TicketsDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.json.Json;
 import javax.json.JsonArray;
 import java.util.Map;
 
@@ -16,7 +17,7 @@ public class TicketService {
 
     ObjectMapper mapper = new ObjectMapper();
     @Autowired
-    TicketsDao ticketsDao;
+    private TicketsDao ticketsDao;
     public JsonNode searchTickets(Map<String,String[]> searchParams){
         ObjectNode response = mapper.createObjectNode();
         try {
@@ -67,7 +68,7 @@ public class TicketService {
     public JsonNode getCountBy(Map<String,String[]> searchParams){
         ObjectNode response = mapper.createObjectNode();
         try {
-            response.putPOJO("data", ticketsDao.getCountBy(searchParams));
+            response.putPOJO("data", transformCountResponse(ticketsDao.getCountBy(searchParams)));
             response.put("success", true);
         } catch (Exception e) {
             e.printStackTrace();
@@ -75,6 +76,22 @@ public class TicketService {
             response.put("error", e.getMessage());
         }
         return response;
+    }
+
+    private JsonNode transformCountResponse(JsonNode aggregationResponse){
+        ArrayNode aggregationResponseArray= (ArrayNode)aggregationResponse;
+        ArrayNode tranformedResponse= mapper.createArrayNode();
+        for(JsonNode aggregationResponseNode: aggregationResponseArray){
+            ObjectNode aggrgationResponseobj= (ObjectNode) aggregationResponseNode;
+            aggrgationResponseobj.fields().forEachRemaining(x->addNode(tranformedResponse,x.getKey(),x.getValue()));
+        }
+        return tranformedResponse;
+    }
+    private void  addNode(ArrayNode transformedResponse, String key, JsonNode val){
+        ObjectNode objectNode= mapper.createObjectNode();
+        objectNode.put("key",key);
+        objectNode.put("val",val);
+        transformedResponse.add(objectNode);
     }
 
     public JsonNode update(JsonNode ticket){
