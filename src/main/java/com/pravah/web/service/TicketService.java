@@ -64,10 +64,10 @@ public class TicketService {
         return response;
     }
 
-    public JsonNode getCountBy(String feild){
+    public JsonNode getCountBy(Map<String,String[]> searchParams){
         ObjectNode response = mapper.createObjectNode();
         try {
-            response.putPOJO("data", ticketsDao.getCountBy(feild));
+            response.putPOJO("data", ticketsDao.getCountBy(searchParams));
             response.put("success", true);
         } catch (Exception e) {
             e.printStackTrace();

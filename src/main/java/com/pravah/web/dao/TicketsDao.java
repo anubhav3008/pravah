@@ -51,8 +51,8 @@ public class TicketsDao  {
         return elasticSearchClient.delete(searchParams,Constants.TICKETS_INDEX);
     }
 
-    public JsonNode getCountBy(String field) throws Exception {
-        return elasticSearchClient.getCountByFeild(field);
+    public JsonNode getCountBy(Map<String,String[]> searchParams) throws Exception {
+        return elasticSearchClient.getCountByFeild(searchParams);
     }
     public JsonNode update( JsonNode ticket) throws Exception {
         return elasticSearchClient.update(ticket);

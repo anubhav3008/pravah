@@ -130,7 +130,8 @@ public class ElasticSearchClient {
         return key.equalsIgnoreCase(Constants.LATITUDE)
                 || key.equalsIgnoreCase(Constants.LONGITUDE)
                 || key.equalsIgnoreCase(Constants.DISTANCE_IN_KM)
-        || key.equalsIgnoreCase(Constants.COUNT_BY);
+        || key.equalsIgnoreCase(Constants.COUNT_BY)
+                || key.equalsIgnoreCase(Constants.FIELD);
     }
 
     public JsonNode index(JsonNode data, String index) throws IOException {
@@ -171,9 +172,14 @@ public class ElasticSearchClient {
         return objectNode;
     }
 
-    public JsonNode getCountByFeild(String field) throws IOException {
+    public JsonNode getCountByFeild(Map<String,String[]> searchParams) throws Exception {
+        String field= searchParams.get(Constants.FIELD)[0];
         SearchRequest searchRequest = new SearchRequest();
         SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
+        BoolQueryBuilder boolQueryBuilder=QueryBuilders.boolQuery();
+        boolQueryBuilder = generateSearchQueryByNonReservedParams(searchParams, boolQueryBuilder);
+
+        searchSourceBuilder.query(boolQueryBuilder);
         TermsAggregationBuilder cardinalityAggregationBuilder = getTermAggregationBuilder(field);
         if(Objects.nonNull(cardinalityAggregationBuilder)) {
             searchSourceBuilder.aggregation(cardinalityAggregationBuilder);

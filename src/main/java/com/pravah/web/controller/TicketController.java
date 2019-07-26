@@ -36,8 +36,8 @@ public class TicketController {
     }
 
     @RequestMapping(path = "/count")
-    public JsonNode getCountBy(@RequestParam("field") String field){
-        return ticketService.getCountBy(field);
+    public JsonNode getCountBy(HttpServletRequest httpServletRequest){
+        return ticketService.getCountBy(httpServletRequest.getParameterMap());
     }
 
     @RequestMapping(path = "/update")

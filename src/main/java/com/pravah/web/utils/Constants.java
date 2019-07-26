@@ -7,4 +7,5 @@ public class Constants {
     public static String GEO_CORDINATES="geoCordinates";
     public static String TICKETS_INDEX="tickets";
     public static String COUNT_BY ="countBy";
+    public static String FIELD="field";
 }
